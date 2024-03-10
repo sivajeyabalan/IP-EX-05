@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGISTRATION FORM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form">
+    <form action="#">
+      <label for="car">What type of car would you like to buy?</label><br>
+      <input type="radio" id="proton" name="car" required>Proton&nbsp;
+      <input type="radio" id="honda" name="car" required>Honda&nbsp;
+      <input type="radio" id="ferri" name="car" required>Ferrari&nbsp;
+      <input type="radio" id="ford" name="car" required>Ford<br>
+      <label for="color">What color do you want on your car?</label><br>
+      <select id="color">
+        <option value="pink">Pink</option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+      </select>
+      <label for="other">Other</label>
+      <input id="other" type="text"><br>
+      <label for="specific">Enter other specifications for your preferred car:</label><br>
+      <input id="specific" type="text"><br>
+      <label for="name">Tell us how to get in touch with you:</label><br>
+      <div class="details">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" pattern="[A-Za-z ]+" title="Name should contain only letters and spaces" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Phone number should contain exactly 10 digits" required><br>
+      </div>
+      <input type="radio" id="contact" name="contact" value="" checked>
+      <label for="contact">Contact me as soon as possible</label><br>
+      <p>Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+      <input type="submit" value="Submit">
+      <button type="reset" id="clear" style="margin-left: 40px;">Clear</button>
+      <p><a href="#">Back to Mail page</a></p>
+    </form>
+  </div>
+</body>
+</html>

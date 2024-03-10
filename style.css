@@ -1,0 +1,44 @@
+form {
+  margin: 10vh;
+  border: 5px solid;
+  border-color: blue;
+  padding: 10%;
+}
+form {
+  margin-top: 10vh;
+}
+#refer  {
+  margin: 20px 0;
+}
+
+#color  {
+  margin: 20px 0;
+}
+#other  {
+  margin: 10px 0;
+}
+#specific {
+  height: 60px;
+  margin-bottom: 30px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+   margin: 20px 20px;
+
+}
+#name {
+  width: 50vh;
+
+}
+#email {
+  width: 50vh;
+}
+#phone {
+  width: 50vh;
+}
+input[type="radio"]
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
